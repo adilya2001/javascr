@@ -1,0 +1,15 @@
+{
+    "camelcase": true,
+    "indent":2,
+    "quotmark":false,
+    "maxlen":120,
+    "trailing":true,
+    "curly": true,
+    "scripturl": false,
+    "browser": true,
+    "devel":true,
+    "jquery": true,
+    "esversion":8,
+    "node": true
+
+}
