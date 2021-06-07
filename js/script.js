@@ -1,22 +1,15 @@
 "use strict";
-// increments,decrements
 
-let incr = 10,
-decr = 10;
+const numberOfFilms = prompt('How many films have you watched','');
 
-// incr++;
-// decr--;
+const personalMovieDB = {
+count: numberOfFilms,
+movies: {},
+actors:{},
+genres : [],
+privat: false
+};
 
-console.log(++incr);
-console.log(--decr);
 
-console.log(5%2);
-
-console.log(2+2*2==8);
-
-const isChecked = true,
-isClose = false;
-
-console.log(isChecked || !isClose);
 
 
